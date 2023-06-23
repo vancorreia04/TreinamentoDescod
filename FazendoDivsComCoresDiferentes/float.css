@@ -1,0 +1,59 @@
+.elementExemple{
+    width: 400px; 
+    height: 200px;
+    
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+.elementExemple_first{
+    background-color: rgb(183, 36, 216);
+   float: right;
+   
+    
+}
+.elementExemple_last{
+    background-color: rgb(125, 25, 25);
+    float: right;
+    
+}
+article{
+    background-color: blueviolet;
+    overflow: hidden;
+
+}
+p{
+    clear: both;
+}
+
+.exemple:after{
+    
+    color: white;
+    text-align: justify;
+   
+}
+.exemple-item{
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+}
+
+
+.exemple-item-first{
+    background-color: coral;
+}
+.exemple-item-secund{
+    background-color: cadetblue;
+}
+.exemple-item-their{
+    background-color: chartreuse;
+    
+    
+}
+p{
+    text-align: justify;
+}
+
+
+
