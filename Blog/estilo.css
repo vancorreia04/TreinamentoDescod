@@ -1,0 +1,13 @@
+body{
+    background-image:url(imagem/fundo-abstrato-com-formas-azuis-translucidos_1048-851.avif);
+    background-size: cover;
+
+}
+div{
+    display: grid;
+    grid-auto-flow: column;
+}
+img{
+    width: 150px;
+    height: 100px;
+}
