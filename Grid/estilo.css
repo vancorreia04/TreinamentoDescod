@@ -1,0 +1,23 @@
+body{
+    background-color: grey;
+}
+header{
+    background-color: yellowgreen;
+   height: 100px;
+}
+main{
+    background-color: coral;
+height: 200px;
+}
+aside{
+    background-color: blueviolet;
+    height: 100px;
+}
+footer{
+    background-color: brown;
+    height: 100px;
+}
+.container{
+    display: grid;
+    grid-template-columns:3fr 1fr
+}
