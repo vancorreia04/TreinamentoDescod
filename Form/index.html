@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="get " action="envio_dados.php">
+        <input type="text" name="nome" placeholder="Digite seu Nome aqui">
+        <input type="e-mail" name="email" placeholder="Digite seu e-mail">
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+    <br>
+    <br\>
+        <form type="button" value="Clique aqui" onclick="msg()">
+        </form>
+        <script>
+            function msg() {
+                alert("Você clicou no botão")
+            }
+        </script>
+        <br>
+        <br\>
+            <form>
+                <input type="checkbox" name="veiculo1" value="bicicleta">Eu tenho uma bicicleta<br>
+                <input type="checkbox" name="veiculo2" value="carro">Eu tenho um carro<br>
+                <input type="checkbox" name="veiculo3" value="moto">Eu tenho uma moto
+            </form>
+            <br>
+            <br>
+            <br\>
+                <form>
+                    Selecione sua cor preferida: <input type="color" name="favcor" value="#0000FF">
+                </form>
+                <br>
+                <br\>
+
+                    <form>
+                        Data de nascimento: <input type="datetime-local" name="nascimento">
+                    </form>
+                    <br>
+                    <br\>
+                        <form>
+                            Data de nascimento: <input type="datetime-local" name="bdaytime">
+                        </form>
+                        <br>
+                        <br\>
+                            <form>
+                                Email: <input type="email" name="e-mail" placeholder="digite aqui seu e-mail">
+                            </form>
+                            <br>
+                            <br\>
+                                <form>
+                                    <input type="file" name="arquivos">
+                                </form>
+                                <br> <br><br>
+                                <!--Para permitir seleção de multiplos arquivos-->
+                                <form>
+                                    <input type="hidden" id= "inputOculto" name="inputOculto" value="meuvalor">
+                                </form>
+                                <br> <br>
+                               
+                                <input type="email" name="e-mail" placeholder="digite aqui seu e-mail">
+                                <br> <br>
+                                <form action="\action_page.php">
+                                    Firts name: <input type="text" name="fname"><br>
+                                    Last name: <input type="text" name="lname"><br>
+                                    <input type="image" src="imagem/seta.png"alt="submit" width="48" height="48">
+                                </form>
+                                <br> <br>
+                                <form >
+                                    Mes do ano: <input type="month" name="mesano">
+                                </form>
+                                <br> <br>
+                                <form >
+                                    Quantidade (entre 1 e 5): <input type="number" name="Quantidade" min="1" max="5">
+                                </form>
+                                <br> <br>
+                                <form >
+                                     <input type="password" name="senha" placeholder="Digite sua senha">
+                                </form>
+                                <br> <br>
+                                <div>
+                                <span>Deseja receber novidades</span>
+                                <input type="radio" name="novidades"id="sim" value="sim"checked><label for="sim"></label>
+                                <input type="radio" name="novidades"id="nao" value="nao"checked><label for="nao"></label>
+                            </div>
+                            <div class="field">
+                                <label for="mensagem">Sua mensagem</label>
+                                <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+
+                            </div>
+                            <input type="submit" name="acao" value="Enviar"
+                                
+                                
+
+
+</body>
+
+</html>
