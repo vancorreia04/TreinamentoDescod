@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/v.ico" type="image\xicon">
+
+</head>
+
+<body>
+    <form method="get " action="envio_dados.php">
+        <input type="e-mail" name="email" placeholder="Digite seu E-mail">
+        <input type="number" name="number" placeholder="Digite seu telefone">
+       
+    </form>
+    <br>
+    <br\>
+        <form type="button" value="Clique aqui" onclick="msg()">
+        </form>
+        <script>
+            function msg() {
+                alert("Você clicou no botão")
+            }
+        </script>
+    <form action="\action_page.php">
+       Firts name: <input type="text" name="fname"><br>
+         Last name: <input type="text" name="lname"><br>
+         
+           </form>
+                                
+         <div>
+        <span>Deseja receber novidades</span>
+        <input type="radio" name="novidades"id="sim" value="sim"checked><label for="sim">Sim</label>
+        <input type="radio" name="novidades"id="nao" value="nao"checked><label for="nao">Nao</label>
+        </div>
+         <div class="field">
+        <label for="mensagem">Sua mensagem</label>
+         <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+
+     </div>
+    <input type="submit" name="acao" value="Enviar">
+                                
+                                
+
+
+</body>
+
+</html>
