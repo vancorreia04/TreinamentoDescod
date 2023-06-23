@@ -1,0 +1,37 @@
+/* Configuração página Projetos.html*/
+body{
+    background-color: rgb(177, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ header img{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.center{
+    text-align: center;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+
+}
+footer p{
+    margin-top: 5px;
+    text-decoration: none;
+}
+.container{
+    padding: 0px 50px;
+}
